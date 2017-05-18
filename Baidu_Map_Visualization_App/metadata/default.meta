@@ -1,0 +1,12 @@
+
+[]
+access = read : [ * ], write : [ admin ]
+export = system
+
+[views/setup]
+export = none
+
+### Visualizations
+
+[visualizations/baidumap]
+export = system

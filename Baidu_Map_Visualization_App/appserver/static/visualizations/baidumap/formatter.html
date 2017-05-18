@@ -1,0 +1,54 @@
+<form class="splunk-formatter-section" section-label="Binding">
+    <splunk-control-group label="Longitude and Latitude Binding">
+        <splunk-text-input name="{{VIZ_NAMESPACE}}.locationBinding" value="0,1">
+        </splunk-text-input>
+    </splunk-control-group>
+    <splunk-control-group label="Data Size Binding">
+        <splunk-text-input name="{{VIZ_NAMESPACE}}.dataSizeBinding" value="2">
+        </splunk-text-input>
+    </splunk-control-group>
+    <splunk-control-group label="Data Color Binding">
+        <splunk-text-input name="{{VIZ_NAMESPACE}}.dataColorBinding" value="">
+        </splunk-text-input>
+    </splunk-control-group>
+</form>
+<form class="splunk-formatter-section" section-label="Settings">
+    <splunk-control-group label="Color High">
+        <splunk-color-picker name="{{VIZ_NAMESPACE}}.colorHigh" value="#d93f3c">
+        </splunk-select>
+    </splunk-control-group>
+    <splunk-control-group label="Color Medium">
+        <splunk-color-picker name="{{VIZ_NAMESPACE}}.colorMedium" value="#f7bc38">
+        </splunk-select>
+    </splunk-control-group>
+    <splunk-control-group label="Color Low">
+        <splunk-color-picker name="{{VIZ_NAMESPACE}}.colorLow" value="#65a637">
+        </splunk-select>
+    </splunk-control-group>
+    <splunk-control-group label="Data Size Max">
+        <splunk-text-input name="{{VIZ_NAMESPACE}}.dataSizeMax" value="30">
+        </splunk-text-input>
+    </splunk-control-group>
+    <splunk-control-group label="Data Size Min">
+        <splunk-text-input name="{{VIZ_NAMESPACE}}.dataSizeMin" value="5">
+        </splunk-text-input>
+    </splunk-control-group>
+    <splunk-control-group label="Map Type Control">
+        <splunk-radio-input name="{{VIZ_NAMESPACE}}.mapTypeControlShow" value="true">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </splunk-radio-input>
+    </splunk-control-group>
+    <splunk-control-group label="Map Navigation Control">
+        <splunk-radio-input name="{{VIZ_NAMESPACE}}.mapNavigationControlShow" value="true">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </splunk-radio-input>
+    </splunk-control-group>
+    <splunk-control-group label="Map Scale Control">
+        <splunk-radio-input name="{{VIZ_NAMESPACE}}.mapScaleControlShow" value="true">
+            <option value="true">True</option>
+            <option value="false">False</option>
+        </splunk-radio-input>
+    </splunk-control-group>
+</form>
